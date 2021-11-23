@@ -34,7 +34,7 @@ process.crawl(YoutubeSpider)
 process.start()
 ```
 
-*Importanje* povučenih podataka s web stranice koji su se *exportali* u csv datoteku pomoću pandasa:
+*Importanje* povučenih podataka s web stranice koji su se *exportali* u csv datoteku pomoću *pandasa*:
 
 ```
 import pandas as pd
