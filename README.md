@@ -10,7 +10,8 @@ Web scrapeanje Youtube web stranice
 
 Link: https://www.youtube.com/
 
-## Instalacija i pokretanje  [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)
+## Instalacija i pokretanje  [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H2mExKRjqxSMecIsMgNwBH8_7N17N8RK?usp=sharing)
+
 
 Prvi korak je instalacija scrapy Python okvira pomoću *package managera* naredbom:
 
