@@ -19,7 +19,7 @@ Instalacija scrapy Python okvira pomoću *package managera* naredbom:
 pip install scrapy
 ```
 
-*Importanje* scrapy biblioteke i ostalih potrebnih modula (klasa CrawlerProcess iz crawler modula, json modul):
+*Importanje* scrapy biblioteke i ostalih potrebnih modula (klasa *CrawlerProcess* iz *crawler* modula, json modul):
 
 ```
 import scrapy 
