@@ -55,7 +55,7 @@ Search _Python: Select Interpreter_ -> select _Edit interpreter path_
 
 Choose _python.exe_ from _venv/scripts_
 
-Install packages from _requirements_:
+Install packages from _requirements.txt_:
 ```
 pip install -r requirements.txt
 ```
