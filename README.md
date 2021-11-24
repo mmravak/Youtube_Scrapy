@@ -64,10 +64,6 @@ Run youtube spider:
 scrapy runspider yt_spider.py -o yt_data.csv
 ```
 
-
-
-
-
 ## Documentation
 
 - Python: https://docs.python.org/3/
