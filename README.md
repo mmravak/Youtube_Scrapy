@@ -4,13 +4,13 @@ Scrapy is a free and open source Python framework used for web scraping a websit
 
 [![Made withScrapy](https://img.shields.io/badge/Made%20with-Scrapy-green)](https://scrapy.org/)
 
-## Zadatak:
+## Assignment:
 
 Scraping Youtube website
 
 Link: https://www.youtube.com/
 
-## Installation and starting
+## Installation and starting in Colab
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H2mExKRjqxSMecIsMgNwBH8_7N17N8RK?usp=sharing)
 
 
@@ -40,6 +40,31 @@ Importing extracted data from websites that are exported to a csv file using pan
 import pandas as pd
 yt_data = pd.read_csv('yt_data.csv')
 ```
+## Installation and starting in Visual Studio Code
+
+Open folder in Visual Studio code
+
+Install virtual enviroment in Terminal using command:
+```
+py -m venv venv
+```
+Go to View tab and select Command Palette
+Search Python Interpreter -> Select Edit interpreter path
+Choose python.exe from venv/scripts
+
+Install packages from requirements using command:
+```
+pip install -r requirements.txt
+```
+Run youtube spider using command:
+```
+scrapy runspider yt_spider.py -o yt_data.csv
+```
+
+
+
+
+
 ## Dokumentation
 
 - Scrapy: https://docs.scrapy.org/
