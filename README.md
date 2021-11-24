@@ -73,7 +73,7 @@ scrapy runspider yt_spider.py -o yt_data.csv
 - Scrapy: https://docs.scrapy.org/
 - Pandas: https://pandas.pydata.org/docs/
 
-## Licenca
+## Licence
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 #
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
