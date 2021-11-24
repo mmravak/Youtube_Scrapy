@@ -4,7 +4,7 @@ Scrapy is a free and open source Python framework used for web scraping a websit
 
 [![Made withScrapy](https://img.shields.io/badge/Made%20with-Scrapy-green)](https://scrapy.org/)
 
-## Assignment:
+## Assignment
 
 Scraping Youtube website
 
