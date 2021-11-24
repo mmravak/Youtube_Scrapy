@@ -1,4 +1,4 @@
-# Youtube scraping using Scrapy 
+# Scraping Youtube using Scrapy 
 
 Scrapy is a free and open source Python framework used for web scraping a website. It provides tools needed to efficiently extract data from web pages, process and store it in a wanted format and structure.
 
