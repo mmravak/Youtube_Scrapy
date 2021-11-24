@@ -42,7 +42,7 @@ yt_data = pd.read_csv('yt_data.csv')
 ```
 ## Installation and starting in Visual Studio Code
 
-Open folder in Visual Studio code
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
 
 Install virtual enviroment in Terminal using command:
 ```
