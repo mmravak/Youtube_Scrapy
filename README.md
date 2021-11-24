@@ -68,7 +68,7 @@ scrapy runspider yt_spider.py -o yt_data.csv
 
 
 
-## Dokumentation
+## Documentation
 
 - Scrapy: https://docs.scrapy.org/
 - Pandas: https://pandas.pydata.org/docs/
