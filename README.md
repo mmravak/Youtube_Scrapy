@@ -1,47 +1,46 @@
-# Youtube scrapy 
+# Youtube scraper 
 
-Scrapy je besplatan i open-source Python okvir koji se primjenjuje za web scrapeanje web stranica. Pruža alate koji su potrebni za učinkovito povlačenje podataka s web stranice, njihovu obradu te pohranu u željenom formatu i strukturi.
+Scrapy is a free and open source Python framework used for web scraping a website. It provides the tools needed to efficiently extract data from web pages, process and store it in a wanted format and structure.
 
 [![Made withScrapy](https://img.shields.io/badge/Made%20with-Scrapy-green)](https://scrapy.org/)
 
 ## Zadatak:
 
-Web scrapeanje Youtube web stranice
+Scraping Youtube website
 
 Link: https://www.youtube.com/
 
-## Instalacija i pokretanje 
+## Installation and starting
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H2mExKRjqxSMecIsMgNwBH8_7N17N8RK?usp=sharing)
 
 
-Instalacija scrapy Python okvira pomoću *package managera* naredbom:
+Install scrapy Python framework using package manager command:
 
 ```
 pip install scrapy
 ```
 
-*Importanje* scrapy biblioteke i ostalih potrebnih modula (klasa *CrawlerProcess* iz *crawler* modula, json modul):
+Importing scrapy library and other required modules (class *CrawlerProcess* from *crawler* module):
 
 ```
 import scrapy 
 from scrapy.crawler import CrawlerProcess
-# import json
 ```
-Kreiranje web scrapy Spidera koji služi za *crawling* po stranici i prikupljanje podataka.
+Creating web scrapy Spider which is used for crawling over the website and collecting data.
 
-Pokretanje scrapy Spidera u python skripti:
+Starting scrapy Spider in Python script:
 ```
 process.crawl(YoutubeSpider)
 process.start()
 ```
 
-*Importanje* povučenih podataka s web stranice koji su se *exportali* u csv datoteku pomoću *pandasa*:
+Importing extracted data from websites that are exported to a csv file using pandasa:
 
 ```
 import pandas as pd
 yt_data = pd.read_csv('yt_data.csv')
 ```
-## Dokumentacija
+## Dokumentation
 
 - Scrapy: https://docs.scrapy.org/
 - Pandas: https://pandas.pydata.org/docs/
