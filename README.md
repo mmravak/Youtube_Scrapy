@@ -48,9 +48,11 @@ Install virtual enviroment in Terminal using command:
 ```
 py -m venv venv
 ```
-Go to View tab and select Command Palette
-Search Python Interpreter -> Select Edit interpreter path
-Choose python.exe from venv/scripts
+Tp activate venv go to _View_ tab and select _Command Palette_
+
+Search _Python: Select Interpreter_ -> select _Edit interpreter path_
+
+Choose _python.exe_ from _venv/scripts_
 
 Install packages from requirements using command:
 ```
