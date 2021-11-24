@@ -1,6 +1,6 @@
 # Youtube scraper 
 
-Scrapy is a free and open source Python framework used for web scraping a website. It provides the tools needed to efficiently extract data from web pages, process and store it in a wanted format and structure.
+Scrapy is a free and open source Python framework used for web scraping a website. It provides tools needed to efficiently extract data from web pages, process and store it in a wanted format and structure.
 
 [![Made withScrapy](https://img.shields.io/badge/Made%20with-Scrapy-green)](https://scrapy.org/)
 
