@@ -14,7 +14,7 @@ Link: https://www.youtube.com/
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H2mExKRjqxSMecIsMgNwBH8_7N17N8RK?usp=sharing)
 
 
-Install scrapy Python framework using package manager command:
+Install scrapy Python framework using package manager command line:
 
 ```
 pip install scrapy
@@ -44,7 +44,8 @@ yt_data = pd.read_csv('yt_data.csv')
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
 
-Install virtual enviroment in Terminal using command:
+
+Install virtual enviroment in Terminal using command line:
 ```
 py -m venv venv
 ```
@@ -54,11 +55,11 @@ Search _Python: Select Interpreter_ -> select _Edit interpreter path_
 
 Choose _python.exe_ from _venv/scripts_
 
-Install packages from requirements using command:
+Install packages from _requirements_:
 ```
 pip install -r requirements.txt
 ```
-Run youtube spider using command:
+Run youtube spider:
 ```
 scrapy runspider yt_spider.py -o yt_data.csv
 ```
