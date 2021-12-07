@@ -37,7 +37,7 @@ process.crawl(YoutubeSpider)
 process.start()
 ```
 
-Importing extracted data from websites that are exported to a csv file using pandasa:
+Importing extracted data from websites that are exported to a csv file using pandas:
 
 ```
 import pandas as pd
